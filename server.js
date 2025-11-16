@@ -1,8 +1,15 @@
 // server.js
+
+const mongoose = require('mongoose');
 const express = require('express');
 const path = require('path');
-const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+const connectDB = require('./config/db');
 const User = require('./model/user');
+
+dotenv.config(); // load env variables
+
+connectDB(); // connect to database
 
 const app = express();
 const PORT = 3000;
@@ -71,4 +78,4 @@ app.get('/delete/:id', async (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
