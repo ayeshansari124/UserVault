@@ -1,5 +1,24 @@
-# UserVault
-A small project to practice full CRUD functionality with MongoDB Atlas and server-side rendering.
+# UserVault – Mini User Management App
 
-**Stack:** Node.js, Express, MongoDB, EJS, Tailwind CSS  
-**Concept:** Basic user management with database operations and clean UI.
+A simple platform to create, edit, delete, and view users.  
+Built as a clean mini-project using Node, Express, MongoDB, and Tailwind.
+
+🚀 Features
+- Create new users
+- Edit user details
+- Delete users
+- List & view users
+- Responsive UI with Tailwind
+
+🛠 Tech Stack
+- Node.js + Express
+- EJS + Tailwind CSS
+- MongoDB + Mongoose
+
+📚 Learnings
+- Basic CRUD operations with MongoDB
+- Server-side rendering with EJS
+- Building clean and reusable UI components
+- Structuring small Express apps properly
+
+Built with ❤️ by Ayesha
